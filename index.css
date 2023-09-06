@@ -1,11 +1,10 @@
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Styles for Sidebar with Scrollbar */
 .sidebar {
     width: 300px;
     height: 100%;
@@ -21,7 +20,7 @@
     padding: 20px;
 }
 
-/* Styles for Dropdown Menus */
+
 .dropdown-menu {
     position: absolute;
     top: 20px;
@@ -29,7 +28,7 @@
     z-index: 1;
 }
 
-/* Styles for Background Color */
+
 .background-color {
     position: fixed;
     top: 0;
