@@ -1,0 +1,41 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for Sidebar with Scrollbar */
+.sidebar {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: white;
+    overflow-y: auto;
+}
+
+.scroll-content {
+    padding: 20px;
+}
+
+/* Styles for Dropdown Menus */
+.dropdown-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+/* Styles for Background Color */
+.background-color {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ffcc00; /* Yellow background color */
+    opacity: 0.5; /* Adjust the opacity as needed */
+}
